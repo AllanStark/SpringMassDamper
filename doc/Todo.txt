@@ -1,0 +1,3 @@
+Currently the exact solution will not work due to corruption of the data in SysParams data structure.
+The correct way to fix this is to get rid of the SysParams data strucutre and pass the SMDsim object to the state functions.
+Declare the state funcions as friends so they can access the private members of the class.
